@@ -1,4 +1,7 @@
 dependencies:
+- name: ddd-exam
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
 - name: ddd-example
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
@@ -13,12 +16,12 @@ dependencies:
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.82
-- name: golang-http-exam2
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.3
 - name: golang-http
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.2
+- name: golang-http-exam2
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.3
 - name: spring-demo
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
