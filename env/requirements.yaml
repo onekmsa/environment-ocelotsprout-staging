@@ -2,6 +2,9 @@ dependencies:
 - name: ddd-exam
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
+- name: ddd-exam1
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
 - name: ddd-example
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
